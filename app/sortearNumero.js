@@ -1,8 +1,8 @@
 const menorValor = 1
 const maiorValor = 1000
-const numeroSecreto = gerarnumeroAleatorio()
+const numeroSecreto = gerarNumeroAleatorio()
 
-function gerarnumeroAleatorio() {
+function gerarNumeroAleatorio() {
     return parseInt(Math.random() * maiorValor + 1)
 }
 
