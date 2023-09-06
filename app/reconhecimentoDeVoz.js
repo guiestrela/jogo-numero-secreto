@@ -11,6 +11,7 @@ recognition.addEventListener('result', onSpeak)
 function onSpeak(evento) {
     chute = evento.results[0][0].transcript
     exibeChuteNaTela(chute)
+    verificaValorValido(chute)
 }
 
 function exibeChuteNaTela(chute) {
